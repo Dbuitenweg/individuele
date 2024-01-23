@@ -1,0 +1,131 @@
+/* alles */
+body{
+    background-color: lightgreen;
+    max-width: 375px;
+    height: auto;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+
+/* eind alles */
+
+
+/* home */
+
+.logo{
+    border-bottom: solid black;
+}
+
+.img-logo img{
+    width: 50px;
+}
+
+.home-img img{
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.text-home p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* eind home */
+
+/* about */
+/* eind about */
+
+
+/* contact */
+
+.social{
+    list-style-type: none; /* de bullet points weg halen*/
+    display: flex;  /* flex box gebruiken voor columen*/
+    flex-direction: column;
+    align-items: start;
+}
+
+/* @media screen and (max-width: 400px){
+    .social{
+        font-size: smaller;
+    }
+} */
+
+.social li{
+    padding: 10px;
+    margin-left: -30px;
+}
+
+.social a{
+    color: black;
+}
+
+.social-media h2{
+    display: flex;
+    justify-content:start ;
+    margin-left: 5%;
+}
+
+
+.input-field{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 14px;
+    outline: none;
+    display: block;
+}
+
+.input-field-textarea{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 14px;
+    outline: none;
+    display: block;
+}
+
+.textarea ::placeholder{
+    display: flex;
+    align-items: flex-start;
+}
+
+.btnsubmit{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: rgb(215, 98, 98);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: var(--shd,0 5px 10px rgba(0,0,0,.6));
+}
+
+/* eind contact */
