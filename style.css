@@ -4,6 +4,8 @@ body{
     max-width: 375px;
     height: auto;
     font-size: smaller;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 footer{
@@ -67,6 +69,7 @@ h1{
 .text-home h2{
     padding-left: 115px;
     text-decoration: underline;
+    font-family:monospace;
 }
 
 .text-1{
@@ -83,11 +86,28 @@ h1{
 /* eind home */
 
 /* about */
+
+.duurzaam{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.img3 img{
+    width: 100px;
+    margin-left: 75px;
+    
+}
+
 .organische-landbouwpraktijken{
     border: solid black;
     display: flex;
     align-items: center;
     margin-top: 25px;
+    margin-left: 10PX;
+    margin-right: 10PX;
+    background-color:lightskyblue;
 }
 
 .waterbeheer,.compostering,.zorg-voor-de-bodem,.zuinig-energiegebruik,.herbruikbare-materialen,.lokaal-en-seizoensgebonden-voedsel,.biodiversiteit-bevorderen{
@@ -95,16 +115,21 @@ h1{
     display: flex;
     align-items: center;
     margin-top: 5px;
-}
-
-.waterbeheer,.compostering{
-    display: flex;
-    border: solid black;
-    align-items: center;
+    margin-left: 10PX;
+    margin-right: 10PX;
+    padding-left: 5px;
+    background-color:lightskyblue;
 }
 
 .zorg-voor-de-bodem{
     margin-bottom: 100px;
+}
+
+.plant img{
+    width: 250px;
+    height: auto;
+    margin-bottom: 150px;
+    margin-left: 20px;
 }
 
 /* eind about */
@@ -117,6 +142,8 @@ h1{
     display: flex; 
     flex-direction: column;
     align-items: start;
+    border-right: solid black;
+    margin-right: 30px;
 }
 
 
