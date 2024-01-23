@@ -3,6 +3,7 @@ body{
     background-color: lightgreen;
     max-width: 375px;
     height: auto;
+    font-size: smaller;
 }
 
 footer{
@@ -25,6 +26,12 @@ footer ul{
 
 footer a{
     text-decoration: none;
+    color: black;
+}
+
+.activepage{
+    background-color: pink;
+    border: solid black thin;
 }
 
 
@@ -77,19 +84,27 @@ h1{
 
 /* about */
 .organische-landbouwpraktijken{
-    margin-top: 25px;
-}
-
-.organische-landbouwpraktijken,.biodiversiteit-bevorderen{
     border: solid black;
     display: flex;
     align-items: center;
+    margin-top: 25px;
+}
+
+.waterbeheer,.compostering,.zorg-voor-de-bodem,.zuinig-energiegebruik,.herbruikbare-materialen,.lokaal-en-seizoensgebonden-voedsel,.biodiversiteit-bevorderen{
+    border: solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .waterbeheer,.compostering{
     display: flex;
     border: solid black;
     align-items: center;
+}
+
+.zorg-voor-de-bodem{
+    margin-bottom: 100px;
 }
 
 /* eind about */
