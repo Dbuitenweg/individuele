@@ -6,14 +6,14 @@ body{
 }
 
 footer{
-    position: fixed;
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     height: auto;
     background-color: aliceblue;
     color: black;
-    padding: 10px;
+    padding: 0;
 }
 
 footer ul{
@@ -47,7 +47,7 @@ h1{
 .img-logo img{
     width: 40px;
     margin-left: -30px;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 
 .home-img img{
@@ -76,14 +76,30 @@ h1{
 /* eind home */
 
 /* about */
+.organische-landbouwpraktijken{
+    margin-top: 25px;
+}
+
+.organische-landbouwpraktijken,.biodiversiteit-bevorderen{
+    border: solid black;
+    display: flex;
+    align-items: center;
+}
+
+.waterbeheer,.compostering{
+    display: flex;
+    border: solid black;
+    align-items: center;
+}
+
 /* eind about */
 
 
 /* contact */
 
 .social{
-    list-style-type: none; /* de bullet points weg halen*/
-    display: flex;  /* flex box gebruiken voor columen*/
+    list-style-type: none; 
+    display: flex; 
     flex-direction: column;
     align-items: start;
 }
