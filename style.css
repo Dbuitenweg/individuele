@@ -5,7 +5,7 @@ body{
     height: auto;
     font-size: smaller;
     font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 footer{
@@ -67,9 +67,9 @@ h1{
 }
 
 .text-home h2{
-    padding-left: 115px;
+    padding-left: 100px;
     text-decoration: underline;
-    font-family:monospace;
+    font-weight: bolder;
 }
 
 .text-1{
@@ -96,7 +96,7 @@ h1{
     margin-top: 30px;
     text-decoration: underline;
     color: green;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.600);
 }
 /* eind home */
 
