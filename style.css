@@ -1,6 +1,6 @@
 /* alles */
 body{
-    background-color: rgb(161, 202, 134);
+    background-color: rgb(146, 214, 100);
     max-width: 375px;
     height: auto;
     font-size: smaller;
@@ -14,7 +14,7 @@ footer{
     left: 0;
     width: 100%;
     height: auto;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(180, 180, 180);
     color: black;
     padding: 0;
 }
@@ -32,7 +32,7 @@ footer a{
 }
 
 .activepage{
-    background-color: pink;
+    background-color: rgb(146, 214, 100);
     border: solid black thin;
     border-radius: 5px;
     padding: 5px;
@@ -51,7 +51,7 @@ h1{
 .logo{
     border-bottom: solid black thin;
     display: flex;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(180, 180, 180);
     margin: -10px;
 }
 
@@ -225,6 +225,7 @@ h1{
     border-radius: 14px;
     outline: none;
     display: block;
+    background-color: lightgray;
 }
 
 .input-field-textarea{
@@ -237,6 +238,7 @@ h1{
     border-radius: 14px;
     outline: none;
     display: block;
+    background-color: lightgray;
 }
 
 .btnsubmit{
@@ -245,7 +247,7 @@ h1{
     margin-top: 18px;
     margin-bottom: 100px;
     padding: 10px;
-    background-color: rgb(215, 98, 98);
+    background-color: rgb(187, 85, 85);
     font-size: 20px;
     border: none;
     cursor: pointer;
