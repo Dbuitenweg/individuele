@@ -1,6 +1,6 @@
 /* alles */
 body{
-    background-color: lightgreen;
+    background-color: rgb(161, 202, 134);
     max-width: 375px;
     height: auto;
     font-size: smaller;
@@ -14,7 +14,7 @@ footer{
     left: 0;
     width: 100%;
     height: auto;
-    background-color: aliceblue;
+    background-color: rgb(116, 116, 116);
     color: black;
     padding: 0;
 }
@@ -34,6 +34,8 @@ footer a{
 .activepage{
     background-color: pink;
     border: solid black thin;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 
@@ -47,9 +49,9 @@ h1{
 }
 
 .logo{
-    border-bottom: solid black;
+    border-bottom: solid black thin;
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(116, 116, 116);
     margin: -10px;
 }
 
@@ -70,6 +72,11 @@ h1{
     padding-left: 100px;
     text-decoration: underline;
     font-weight: bolder;
+}
+
+.text-home p{
+    border-left: solid black;
+    padding-left: 5px;
 }
 
 .text-1{
@@ -110,37 +117,51 @@ h1{
 }
 
 .img3 img{
-    width: 100px;
-    margin-left: 75px;
-    
+    width: 150px;
+    margin-left: 60px;
+    border-radius: 10px;
 }
 
 .organische-landbouwpraktijken{
-    border: solid black;
-    display: flex;
-    align-items: center;
+    border: solid black thin;
     margin-top: 25px;
     margin-left: 10PX;
     margin-right: 10PX;
-    background-color:lightskyblue;
+    background-color:rgb(39, 39, 39);
+    color:bisque;
+    background-image: url(img/op2.png);
+    border-radius: 10px;
 }
 
-.lokaal-en-seizoensgebonden-voedsel ul{
-    padding-left: 70px;
+.organische-landbouwpraktijken li{
+    margin: 5px;
+}
+
+.organische-landbouwpraktijken h3{
+    display: flex;
+    justify-content: center;
 }
 
 .waterbeheer,.compostering,.zorg-voor-de-bodem,.zuinig-energiegebruik,.herbruikbare-materialen,.lokaal-en-seizoensgebonden-voedsel,.biodiversiteit-bevorderen{
-    border: solid black;
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
+    border: solid black thin;
+    background-color:rgb(39, 39, 39);
+    color:bisque;
+    background-image: url(img/op2.png);
+    margin-top: 10px;
     margin-left: 10PX;
     margin-right: 10PX;
     padding-left: 5px;
-    background-color:lightskyblue;
+    border-radius: 10px;
 }
 
+.waterbeheer li,.compostering li,.zorg-voor-de-bodem li,.zuinig-energiegebruik li,.herbruikbare-materialen li,.lokaal-en-seizoensgebonden-voedsel li,.biodiversiteit-bevorderen li{
+    margin: 5px;
+}
 
+.waterbeheer h3,.compostering h3,.zorg-voor-de-bodem h3,.zuinig-energiegebruik h3,.herbruikbare-materialen h3,.lokaal-en-seizoensgebonden-voedsel h3,.biodiversiteit-bevorderen h3{
+    display: flex;
+    justify-content: center;
+}
 
 .zorg-voor-de-bodem{
     margin-bottom: 35px;
@@ -151,6 +172,7 @@ h1{
     height: auto;
     margin-bottom: 60px;
     margin-left: 20px;
+    border-radius: 10px;
 }
 
 /* eind about */
