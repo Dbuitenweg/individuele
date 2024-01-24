@@ -8,6 +8,10 @@ body{
     font-family:Arial, Helvetica, sans-serif
 }
 
+header{
+    position: fixed;
+}
+
 footer{
     position:fixed;
     bottom: 0;
@@ -48,11 +52,13 @@ h1{
     margin-bottom: -10px;
 }
 
-.logo{
+header{
     border-bottom: solid black thin;
     display: flex;
+    align-items: start;
     background-color: rgb(180, 180, 180);
     margin: -10px;
+    margin-top: -100px;
 }
 
 .img-logo img{
@@ -69,6 +75,7 @@ h1{
 }
 
 .text-home h2{
+    margin-top: 100px;
     padding-left: 100px;
     text-decoration: underline;
     font-weight: bolder;
@@ -109,10 +116,11 @@ h1{
 
 /* about */
 
-.duurzaam{
+.duurzaam h2{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 100px;
     text-decoration: underline;
 }
 
@@ -203,7 +211,7 @@ h1{
     display: flex;
     justify-content:start ;
     margin-left: 5%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .contact{
